@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+    --background-image-radial: radial-gradient(circle  at 50% 140%, #031e69 50%, #04152e 70% , #04142b 100%);
+    --font-family-figtree:  "Figtree", sans-serif;
+   --font-family-sans: "Plus Jakarta Sans", sans-serif;
+  
+  }
+
+  @media (min-height:300px) {
+    .h-600\:text-xsm {
+        height: auto;
+        min-height: 100vh;
+        background-color:aqua;
+    }
+  }
+
+  
+
+  @media (min-height:500px) {
+    .h-600\:text-md {
+        height: auto;
+        min-height: 100vh;
+    }
+  }
+
+  @media (min-height:600px) {
+    .h-600\:text-lg {
+        height: auto;
+        min-height: 80vh;
+    }
+  }
+
+  @media (min-height:800px) {
+    .h-600\:text-xl {
+        height: auto;
+        min-height: 300vh;
+        background-color:aqua;
+    }
+  }
+
+  @media (min-height:1000px) {
+    .h-600\:text-2xl {
+        height: auto;
+        min-height: 45vh;
+    }
+  }
+
+  @media (min-height:1100px) {
+    .h-600\:text-3xl {
+        height: auto;
+        min-height: 35vh;
+    }
+  }
+
+  @media (min-height:1200px) {
+    .h-600\:text-4xl {
+      
+        height: auto;
+        min-height: 20vh;
+    }
+  }
