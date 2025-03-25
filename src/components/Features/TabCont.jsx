@@ -32,7 +32,7 @@ const TabCont = ({tabRef , changeTab}) => {
 
     const tabItem = tab.map((item,i) => <TabItem ref={(el) => (tabRef.current[i] = el)} id={item.id} key={item.id} content={item.text} width={item.width} changeTab={changeTab}/>)
     return(
-        <div className="border-2 border-[#E4E4E7] rounded-md lg:w-[95%] w-full flex justify-between h-[44px] mx-auto items-center">
+        <div className="border-2 border-[#E4E4E7]  rounded-md lg:w-[95%] w-full flex justify-between h-[44px] mx-auto items-center">
          <div className="w-full md:w-[95%]  mx-auto flex justify-between">
           {tabItem}
          </div>
