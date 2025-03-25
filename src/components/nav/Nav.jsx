@@ -21,8 +21,9 @@ const Nav = () => {
                 <img src={content} alt="company logo" />
                 </div>
               
-              {innerWidth < 600 ? <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 48 48"><g fill="none" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" strokeWidth={4}><path d="M7.94971 11.9497H39.9497"></path><path d="M7.94971 23.9497H39.9497"></path><path d="M7.94971 35.9497H39.9497"></path></g></svg> : <ListItem/> }
-              {innerWidth < 600 ? null : <ButtonCont/> }
+              <svg className="lg:hidden" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 48 48"><g fill="none" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" strokeWidth={4}><path d="M7.94971 11.9497H39.9497"></path><path d="M7.94971 23.9497H39.9497"></path><path d="M7.94971 35.9497H39.9497"></path></g></svg>  
+              <ListItem/> 
+              <ButtonCont/> 
             </div>
            
         </div>

@@ -20,7 +20,7 @@ const ButtonCont = () => {
         )
     })
     return(
-        <div className="flex w-[25%] lg:w-[20%] justify-between">
+        <div className="hidden lg:flex w-[25%] lg:w-[20%] justify-between">
             {buttons}
         </div>
     )
