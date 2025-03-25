@@ -7,14 +7,6 @@
   
   }
 
-  @media (min-height:300px) {
-    .h-600\:text-xsm {
-        height: auto;
-        min-height: 100vh;
-        background-color:aqua;
-    }
-  }
-
   
 
   @media (min-height:500px) {
